@@ -1,0 +1,110 @@
+footer{
+    background-color: #0B7572;
+    padding-bottom: 29px;
+}
+
+.main__main{
+    display: flex;
+    flex-direction: column;
+    .main__footer-div{
+        display: grid;
+        grid-template-rows: 1fr;
+        grid-template-columns: repeat(4, 1fr);
+        padding: 30px 0 21px 50px;
+        >h2{
+            color: #FFF;
+            font-family: "Familjen Grotesk", sans-serif;
+            font-size: 60px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 150%; /* 90px */
+            letter-spacing: 9.6px;
+            text-transform: capitalize;
+        }
+        .footer__first-item{
+            display: flex;
+            flex-direction: column;
+            gap: 13px 0;
+            >li{
+                color: #FFF;
+                text-align: center;
+                font-family: "Exo 2", sans-serif;
+                font-size: 13px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: 150%; /* 19.5px */
+                letter-spacing: 2.08px;
+                text-transform: capitalize;
+            }
+        }
+        .footer__second-item{
+            display: flex;
+            flex-direction: column;
+            gap: 13px 0;
+            >li{
+                color: #FFF;
+                font-family: "Exo 2", sans-serif;
+                font-size: 13px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: 150%; /* 19.5px */
+                letter-spacing: 2.08px;
+                text-transform: capitalize;
+            }
+        }
+        .last__items{
+            color: #FFF;
+            display: flex;
+            flex-direction: column;
+            .icons{
+                margin-bottom: 32px;
+                display: flex;
+                gap: 0 14px;
+            }
+            >p{
+                margin-bottom: 32px;
+                color: #FFF;
+                font-family: "Exo 2", sans-serif;
+                font-size: 13px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: 150%; /* 19.5px */
+                text-transform: uppercase;
+            }
+        }
+        button{
+            padding: 7px 40px 8px 11px;
+            background-color: #FF9619;
+            border: none;
+            position: relative;
+            color: #FFF;
+            font-family: "Open Sans", sans-serif;
+            font-size: 13px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 150%; /* 19.5px */
+            text-transform: uppercase;
+            transition: 0.3s;
+            &::after{
+                position: absolute;
+                content: url("../../images/Arrow4.svg");
+                right: 5%;
+            }
+            &:hover{
+                background-color: #8a5719;
+            }
+        }
+    }
+    >p{
+        margin: 0 auto;
+        color: #FFF;
+        text-align: center;
+        font-family: "Exo 2", sans-serif;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 150%; /* 18px */
+        letter-spacing: 1.92px;
+        text-transform: capitalize;
+    }
+}

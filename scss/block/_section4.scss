@@ -1,0 +1,145 @@
+.section4{
+    margin-bottom: 100px;
+    margin-top: 68px;
+    .container{
+        .sec4__main{
+            display: flex;
+            justify-content: space-between;
+            padding: 100px 67px 85px 81px;
+            background-color: #0B7572;
+            >.sec4__content{
+                >h2{
+                    color: var(--white, #FFF);
+                    font-family: Exo 2;
+                    font-size: 48px;
+                    font-style: normal;
+                    font-weight: 600;
+                    line-height: 125%;
+                    max-width: 477px;
+                    margin-right: 50px;
+                }
+            }
+            .sec4__table{
+                border-radius: 8px;
+                display: flex;
+                flex-direction: column;
+                background-color: #FFF;
+                padding: 28px 40px 32px 41px;
+                .sec4__table-intro{
+                    display: flex;
+                    justify-content: space-between;
+                    padding-bottom: 32px;
+                    border-bottom: 1px solid #D7D7DD;
+                    margin-bottom: 32px;
+                    >p{
+                        color: var(--additional-font, #6B6B6C);
+                        font-family: "PT Sans", sans-serif;
+                        font-size: 11px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 150%;
+                        max-width: 274px;
+                    }
+                }
+                .sec4__tbl{
+                    .tbl{
+                        >.thead__650{
+                            display: none;
+                        }
+                        >.thead{
+                            padding: 20px;
+                            >tr{
+                                padding: 10px;
+                                border-collapse: collapse;
+                                >th{
+                                    color: #fff;
+                                    background-color: #0B7572;
+                                    padding: 15px 0;
+                                    color: var(--white, #FFF);
+                                    font-family: Exo 2;
+                                    font-size: 16px;
+                                    font-style: normal;
+                                    font-weight: 600;
+                                    line-height: 150%;
+                                    border: 2px solid rgba(0, 0, 0, 0.20);
+                                    &:first-child{
+                                        border: none;
+                                    }
+                                    &:nth-child(2){
+                                        border-top: none;
+                                        border-bottom: none;
+                                    }
+                                    &:nth-child(3){
+                                        border-top: none;
+                                        border-bottom: none;
+                                    }
+                                    &:last-child{
+                                        border: none;
+                                    }
+                                }
+                            }
+                        }
+                        >.tbody__650{
+                            display: none;
+                        }
+                        .tbody{
+                            tr{
+                                td{
+                                    &:first-child{
+                                        padding: 24px 16px 65px 16px;
+                                        border-left: none;
+                                    }
+                                    border: 2px solid #D7D7DD;
+                                    border-right: none;
+                                    // border-left: none;
+                                    border-bottom: none;
+                                    padding: 24px 20px 24px 16px;
+                                    vertical-align: top;
+                                    >p{
+                                        color: var(--additional-font, #6B6B6C);
+                                        font-family: "PT Sans", sans-serif;
+                                        font-size: 14px;
+                                        font-style: normal;
+                                        font-weight: 400;
+                                        line-height: 135%;
+                                        margin-bottom: 10px;
+                                    }
+                                    >strong{
+                                        color: var(--main-font, #363738);
+                                        font-family: Exo 2;
+                                        font-size: 14px;
+                                        font-style: normal;
+                                        font-weight: 600;
+                                        line-height: 135%;
+                                    }
+                                    >h2{
+                                        color: var(--main-font, #363738);
+                                        font-family: "PT Sans", sans-serif;
+                                        font-size: 14px;
+                                        font-style: normal;
+                                        font-weight: 700;
+                                        line-height: 135%;
+                                        margin-bottom: 10px;
+                                    }
+                                    .number{
+                                        color: var(--main-font, #363738);
+                                        font-family: "PT Sans", sans-serif;
+                                        font-size: 12px;
+                                        font-style: normal;
+                                        font-weight: 400;
+                                        line-height: 135%;
+                                        width: 100%;
+                                    }
+
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .stars{
+        color: #FFCE50 !important;
+    }
+}

@@ -1,0 +1,212 @@
+.section1__all-content{
+    margin-bottom: 100px;
+    display: flex;
+    gap: 0 140px;
+    .section1__introduction{
+        >h2{
+            color: var(--main-font, #363738);
+            font-family: "Exo 2", sans-serif;
+            font-size: 48px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 125%;
+            max-width: 687px;
+        }
+        >p{
+            color: var(--additional-font, #6B6B6C);
+            font-family: "PT Sans", sans-serif;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 150%;
+            max-width: 667px;
+            margin-top: 32px;
+            margin-bottom: 40px;
+        }
+        .section1__choice{
+            display: flex;
+            flex-direction: column;
+            gap: 16px 0;
+            .choice1__item{
+                transition: 0.5s;
+                border-radius: 10px;
+                border: 1px solid rgba(255, 255, 255, 0);
+                &:hover{
+                    border-radius: 10px;
+                    border: 1px solid var(--green, #0B7572);
+                }
+                .custom-radio-btn{
+                    margin-top: 10px;
+                    width: 24px;
+                    height: 24px;
+                    border: 1px solid #6B6B6C;
+                    border-radius: 100%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    .checkmark{
+                        opacity: 0;
+                        width: calc(100% - 8px);
+                        height: calc(100% - 8px);
+                        background-color: rgba(11, 117, 114, 1);
+                        display: inline-block;
+                        border-radius: 50%;
+                        transition: opacity 0.5s ease;
+                    }
+                    >input{
+                        display: none;
+                    }
+                    >input:checked + .checkmark{
+                        display: inline-block;
+                        opacity: 1;
+                    }
+                    
+                }
+                display: flex;
+                gap: 0 32px;
+                max-width: 687px;
+                align-items: start;
+                padding: 48px 0 48px 40px;
+                border-radius: 10px;
+                background: #FFF;
+                box-shadow: 0px 3px 15px 0px rgba(0, 0, 0, 0.12);
+                .choice__content{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 24px 0;
+                    >h3{
+                        color: var(--main-font, #363738);
+                        font-family: "Exo 2", sans-serif;
+                        font-size: 20px;
+                        font-style: normal;
+                        font-weight: 600;
+                        line-height: 150%;
+                    }
+                    >p{
+                        color: var(--additional-font, #6B6B6C);
+                        font-family: "PT Sans", sans-serif;
+                        font-size: 16px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 150%;
+                        max-width: 446px;
+                    }
+                }
+            }
+        }
+    }
+    .section1__vote{
+        >h3{
+            color: var(--main-font, #363738);
+            font-family: "Exo 2", sans-serif;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 150%;
+        }
+        >p{
+            color: var(--additional-font, #6B6B6C);
+            font-family: "Exo 2", sans-serif;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 150%;
+            >span{
+                color: var(--main-font, #363738);
+                font-family: "Exo 2", sans-serif;
+                font-size: 54px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: 150%;
+            }
+            border-bottom: 3px solid  #FFCE50;;
+        }
+        margin-top: 180px;
+    }
+}
+
+
+
+
+
+//  SECTION 2 STARTED
+
+.main__section2{
+    margin-bottom: 120px;
+    width: 100%;
+    position: relative;
+    .overlay__section{
+        height: 453px;
+        margin-bottom: 72.5px;
+        .section2__media610-content{
+            display: none;
+            color: var(--main-font, #363738);
+            font-family: "Exo 2", sans-serif;
+            font-size: 28px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 125%;
+            max-width: 345px;
+        }
+        .section2__overlay{
+            position: absolute;
+            z-index: 2;
+            left: 0;
+            top: 0;
+            background-color: #0B7572;
+            padding: 170px 317px 163px 90px;
+            clip-path: polygon(0% 0%, 48% 0%, 95% 102%, 0% 102%);
+            >h2{
+                max-width: 362px;
+                color: var(--white, #FFF);
+                font-family: "Exo 2", sans-serif;
+                font-size: 48px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: 125%;
+            }
+        }
+        >.overlay__img1{
+            position: absolute;
+            z-index: 1;
+            right: 0;
+            
+        }
+        >.overlay__img2{
+            display: none;
+        }
+    }
+    .section2__bottom{
+        .section2__bottom-items{
+            padding-left: 66px;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 1fr 1fr;
+            gap: 64px 0;
+            .section2__bottom-item{
+                display: flex;
+                align-items: center;
+                gap: 0 40px;
+                .section2__bottom-item-content{
+                    >h2{
+                        color: var(--main-font, #363738);
+                        font-family: "Exo 2", sans-serif;
+                        font-size: 20px;
+                        font-style: normal;
+                        font-weight: 600;
+                        line-height: 135%;
+                    }
+                    >p{
+                        color: var(--additional-font, #6B6B6C);
+                        font-family: "PT Sans", sans-serif;
+                        font-size: 16px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 150%;
+                        max-width: 291px;
+                    }
+                }
+            }
+        }
+    }
+}
